@@ -1,0 +1,16 @@
+<% @results.in_groups_of 4 do |results_row| %>
+<div class="row">
+  <% results_row.each do |result|%>
+  <div class="col box">
+    <center><%= image_tag result.image_path, class: "thumb" %></center>
+    <p><%= "#{result.tag1}: #{result.tag1_count}" %></p>
+    <p><%= "#{result.tag2}: #{result.tag2_count}" %></p>
+    <p><%= "#{result.tag3}: #{result.tag3_count}" %></p>
+    <p><%= "#{result.tag4}: #{result.tag4_count}" %></p>
+    <p><%= "#{result.tag5}: #{result.tag5_count}" %></p>
+
+  </div>
+  <%end%>
+
+</div>
+<%end%>

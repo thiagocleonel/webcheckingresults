@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  photo_id: 1
+  test_count: 1
+  image_path: MyString
+  tag1: MyString
+  tag1_count: 1
+  tag2: MyString
+  tag2_count: 1
+  tag3: MyString
+  tag3_count: 1
+  tag4: MyString
+  tag4_count: 1
+  tag5: MyString
+  tag5_count: 1
+
+two:
+  photo_id: 1
+  test_count: 1
+  image_path: MyString
+  tag1: MyString
+  tag1_count: 1
+  tag2: MyString
+  tag2_count: 1
+  tag3: MyString
+  tag3_count: 1
+  tag4: MyString
+  tag4_count: 1
+  tag5: MyString
+  tag5_count: 1
